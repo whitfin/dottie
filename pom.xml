@@ -19,7 +19,7 @@
         <developer>
             <id>whitfin</id>
             <name>Isaac Whitfield</name>
-            <email>iw@zackehh.com</email>
+            <email>isaac@whitfin.io</email>
         </developer>
     </developers>
 
@@ -43,7 +43,7 @@
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
 
@@ -164,7 +164,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.3</version>
+                        <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>ossrh</serverId>
